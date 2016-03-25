@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p id="changetext"></p>
+<script type="text/javascript">
+	function randomNumber(name) {		
+	var num = Math.floor(Math.random() * ((15-6)+1) + 6);
+	var result = name +' '+ num
+	document.getElementById('changetext').innerHTML=result   
+}
+	randomNumber('dariya')
+ 
+</script>
+</body>
+</html>
